@@ -11,3 +11,6 @@ the 'import' codes would be redundant. But we'd still need the manipulation code
 
 ##Import Codes
 The file Import-R.R contains the relevant code to import, do some basic manipulations and set up the first R image which contains the imported objects, ready to be passed through the next set of codes.
+
+##Setup Codes
+The file Setup-R.R contains the relevant code to take the image saved by the previous script, sticth the relevant objects together and create well defined R objects that would be ready for subsequent analysis. As an example, imported image has geographical information in separate objects. Here, all those separate objects are brought together to create the Geography Master. Similarly, all CBOs, which sat in the same object earlier, are now assigned thier separate objects, and then mapped back to their parent CBOs to have a clearer hierarchy.
